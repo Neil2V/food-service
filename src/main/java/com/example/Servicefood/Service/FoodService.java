@@ -18,10 +18,6 @@ public class FoodService {
         return foodRepository.save(food);
     }
 
-    public void guardar2(Food food) {
-        foodRepository.save(food);
-    }
-
     public List<Food> getFoods(){
         return foodRepository.findAll();
     }
